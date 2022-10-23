@@ -1,6 +1,6 @@
 {
 	"name": "@darkcompet/nodejs-cardano-support",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "This is cardano support lib for nodejs",
 	"author": "DarkCompet <darkcompet@gmail.com>",
 	"license": "ISC",
@@ -10,7 +10,7 @@
 		"nodejs",
 		"cardano",
 		"cardano-serialization-lib",
-		"cardano-serialization-lib"
+		"cardano-message-signing"
 	],
 	"publishConfig": {
 		"access": "public"
@@ -33,6 +33,8 @@
 	},
 	"dependencies": {
 		"@darkcompet/js-core": "^1.0.4",
-		"@darkcompet/nodejs-core": "^1.1.6"
+		"@darkcompet/nodejs-core": "^1.1.6",
+		"@emurgo/cardano-message-signing-nodejs": "^1.0.1",
+		"@emurgo/cardano-serialization-lib-nodejs": "^11.1.0"
 	}
 }
