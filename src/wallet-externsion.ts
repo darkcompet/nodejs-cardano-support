@@ -100,7 +100,7 @@ export class DkCardanoWalletExtension {
 				return true;
 			}
 			catch (e: any) {
-				console.log(`---> The address is not base address, error: ${e}`);
+				// console.log(`The address is not base address, error: ${e}`);
 			}
 
 			// Check if address is RewardAddress
